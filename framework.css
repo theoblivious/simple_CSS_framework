@@ -1,48 +1,46 @@
 body {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 .row {
     overflow: auto;
-
 }
-#nav, .feature, footer {
+nav, .feature, footer {
     margin: 1%;
 }
 .navbar {
     text-align: right;
 }
-#navbarlogo {
+.logo {
     text-align: left;
 }
-
 /*three columns in a row*/
-.col2nd{
+
+.col2nd {
     width: 45%;
     float: left;
     margin: 1%;
 }
-.col3rd{
+.col3rd {
     width: 31.3%;
     float: left;
     margin: 1%;
 }
-
-.col4th{
-  width :22.5%;
-  float: left;
-  margin: 1%;
+.col4th {
+    width: 25%;
+    float: left;
+    margin: 1%;
 }
-.col6th{
-  width: 15%;
-  float: left;
-  margin: 1%;
+.col6th {
+    width: 16.67%;
+    float: left;
+    margin: 1%;
 }
-
 /*may not need this one? if not, we can rename the 1,2,3 and get rid of them. If it doesnt work add the 1,2,3 back on three column row  */
 /*.col3rd3 {
     margin-right: 0%;
 }*/
+
 li {
     display: inline;
     padding: 0.5em;
@@ -56,18 +54,35 @@ nav, footer {
     margin-bottom: 1em;
     background-color: #efefef;
 }
-
-.empty{
-  background-color:transparent;
+.empty {
+    background-color: transparent;
 }
+/*Special Changes*/
+/*for a fixed navbar*/
 
+.fixednav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0%;
+}
+/*for fixed footer*/
+.fixedfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0%;
+}
 /*mobile optimized */
+
 @media screen and (max-width: 768px) {
-  .col2nd,.col3rd, .col4th, .col6th {
-    float: none;
-    width: auto;
-  }
-  .navbar{
-    display:none;
-  }
+    .col2nd, .col3rd, .col4th, .col6th {
+        float: none;
+        width: auto;
+    }
+    .navbar {
+        display: none;
+    }
 }
