@@ -12,11 +12,16 @@ body {
 .navbar {
     text-align: right;
 }
-#logo {
+#navbarlogo {
     text-align: left;
 }
 
 /*three columns in a row*/
+.col2nd{
+    width: 45%;
+    float: left;
+    margin: 1%;
+}
 .col3rd{
     width: 31.3%;
     float: left;
@@ -24,12 +29,12 @@ body {
 }
 
 .col4th{
-  width :25%;
+  width :22.5%;
   float: left;
   margin: 1%;
 }
 .col6th{
-  width: 16.67%;
+  width: 15%;
   float: left;
   margin: 1%;
 }
@@ -58,7 +63,7 @@ nav, footer {
 
 /*mobile optimized */
 @media screen and (max-width: 768px) {
-  .col3rd, .col4th, .col6th {
+  .col2nd,.col3rd, .col4th, .col6th {
     float: none;
     width: auto;
   }
