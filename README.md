@@ -5,7 +5,9 @@ Simple HTML/CSS framework with light Mobile Optimizations. Everything is set to 
 
 How to Use
 
-1.Open index.html file to find style guide.
+Click Here to see sample grid system.
+
+http://theoblivious.github.io/simple_CSS_framework/
 
 Notes
 
