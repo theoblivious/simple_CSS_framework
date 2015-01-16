@@ -9,7 +9,8 @@ body {
     overflow: auto;
 }
 nav, .feature, footer {
-    margin: 1%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 .navbar {
     text-align: right;
@@ -22,22 +23,26 @@ nav, .feature, footer {
 .col2nd {
     width: 48%;
     float: left;
-    margin: 1%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 .col3rd {
     width: 31.3%;
     float: left;
-    margin: 1%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 .col4th {
     width: 24%;
     float: left;
-    margin: 1%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 .col6th {
     width: 15.67%;
     float: left;
-    margin: 1%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 /*may not need this one? if not, we can rename the 1,2,3 and get rid of them. If it doesnt work add the 1,2,3 back on three column row  */
 /*.col3rd3 {
